@@ -9,6 +9,7 @@
 <body>
 <?php
 include("config.php");
+include("auth.php");
 session_start();
 // If form submitted, insert values into the database.
 if (isset($_POST['username'])){

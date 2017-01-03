@@ -8,7 +8,6 @@
 </head>
 <body>
 <?php
-include("auth.php");
 include("config.php");
 session_start();
 // If form submitted, insert values into the database.

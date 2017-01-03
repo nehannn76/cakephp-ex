@@ -21,7 +21,7 @@ or die(mysql_error());
 
 
 
-// redirect back to the view page
+// redirect back to the view page..
 
 header("Location: adminhome.php");
 
